@@ -1,24 +1,3 @@
-@echo off
-echo WARNING!!! THIS FILE WILL DELETE ALL EOP FILES. MAKE BACKUPS OF ANY SCRIPTS YOU WISH TO PRESERVE FIRST BEFORE CONTUINING!
-
-set /p userResponse=Do you really want to uninstall all EOP files? (Y/N): 
-
-if /i "%userResponse%"=="Y" (
-    echo You chose to continue.
-    rmdir /s /q  "eopData"
-    DEL /F /Q "M2TWEOP_GUI.exe"
-    DEL /F /Q "M2TWEOP GUI.exe"
-    DEL /F /Q "d3d9.dll"
-    DEL /F /Q "discord_game_sdk.dll"
-    DEL /F /Q "libfbxsdk.dll"
-    DEL /F /Q "lua5.1.dll"
-    DEL /F /Q "M2TWEOPLibrary.dll"
-    DEL /F /Q "M2TWEOPLibrary.pdb"
-    DEL /F /Q "openal32.dll"
-    DEL /F /Q "d3d9_vk.dll"
-    DEL /F /Q "imgui.ini"
-) else (
-    echo You chose to cancel.
-)
-
-pause
+version https://git-lfs.github.com/spec/v1
+oid sha256:4a070d77e05aa4bb771ae1a56ba92bfe083cbe29010ad6cbf7a5a98197abcd73
+size 709

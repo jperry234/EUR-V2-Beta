@@ -1,2 +1,3 @@
-﻿license: Freeware, Non-Commercial
-link: https://www.fontspace.com/dragonlord-font-f86336
+version https://git-lfs.github.com/spec/v1
+oid sha256:ecd3ca7e4d25808c31c998a9c16d2419d08f3f0d12b3fd179ba1653aaf7b4e98
+size 92
